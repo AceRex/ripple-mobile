@@ -8,6 +8,7 @@ import Loans from "./Pages/Loans";
 import Payroll from "./Pages/Payroll";
 import More from "./Pages/More";
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
+import { View } from "react-native";
 
 const Tab = createBottomTabNavigator();
 
@@ -41,11 +42,23 @@ const App = () => {
 
             if (route.name === "Home") {
               iconName = focused ? "home" : "home-outline";
-            } else if (route.name === "Profile") {
-              iconName = focused ? "person" : "person-outline";
+            } else if (route.name === "Employee") {
+              iconName = focused ? "account-plus" : "account-plus-outline";
+            } else if (route.name === "Payroll") {
+              iconName = focused ? "file-document" : "file-document-outline";
+            } else if (route.name === "Loans") {
+              iconName = focused ? "hand-coin" : "hand-coin-outline";
+            } else if (route.name === "More") {
+              iconName = focused ? "view-grid" : "view-grid-outline";
             }
 
-            return <MaterialCommunityIcons name={iconName} size={size} color={color} />;
+            return (
+              <MaterialCommunityIcons
+                name={iconName}
+                size={size}
+                color={color}
+              />
+            );
           },
         })}
         tabBarOptions={{
@@ -55,12 +68,12 @@ const App = () => {
       >
         <Tab.Screen
           name="Home"
-          component={Home}
+          component={HomeScreen}
           options={{ headerShown: false }}
         />
         <Tab.Screen
           name="Employee"
-          component={Employee}
+          component={EmployeeScreen}
           options={{ headerShown: false }}
         />
         <Tab.Screen
@@ -82,5 +95,21 @@ const App = () => {
     </NavigationContainer>
   );
 };
+const ScreenContainer = ({ children }) => (
+  <View style={{ flex: 1, paddingTop: 30, paddingHorizontal: 20 }}>
+    {children}
+  </View>
+);
 
+const HomeScreen = () => (
+  <ScreenContainer>
+    <Home />
+  </ScreenContainer>
+);
+
+const EmployeeScreen = () => (
+  <ScreenContainer>
+    <Employee />
+  </ScreenContainer>
+);
 export default App;

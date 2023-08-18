@@ -17,7 +17,7 @@ import Entypo from "react-native-vector-icons/Entypo";
 
 const Tab = createBottomTabNavigator();
 
-const Flex = () => {
+const Home = () => {
   return (
     <ScrollView
       style={[
@@ -50,17 +50,17 @@ const Flex = () => {
               borderRadius: 50,
               borderWidth: 5,
               borderColor: "#11453B",
-              width: 80,
-              height: 80,
+              width: 75,
+              height: 75,
               overflow: "hidden",
             }}
           >
             <Image
-              style={{ width: 70, height: 70 }}
+              style={{ width: 65, height: 65 }}
               source={require("../assets/userImg.jpeg")}
             />
           </View>
-          <Text style={{ fontFamily: "font5", fontSize: 17, color: "#292A29" }}>
+          <Text style={{ fontFamily: "font5", fontSize: 18, color: "#292A29" }}>
             {" "}
             Hello User
           </Text>
@@ -207,7 +207,7 @@ const Flex = () => {
           </View>
         </View>
       </View>
-      <View style={{ flex: 1, marginBottom: 80 }}>
+      <View style={{ flex: 1, marginBottom: 50 }}>
         <View style={{ marginBottom: 20 }}>
           <Text
             style={{
@@ -363,8 +363,8 @@ const Flex = () => {
                 padding: 25,
               }}
             >
-              <FontAwesome5
-                name={"hand-holding-usd"}
+              <MaterialCommunityIcons
+                name={"hand-coin"}
                 size={25}
                 color="#116487"
                 style={{ textAlign: "center" }}
@@ -508,9 +508,8 @@ const Flex = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    padding: 20,
-    paddingTop: 50,
+    paddingTop: 20
   },
 });
 
-export default Flex;
+export default Home;
