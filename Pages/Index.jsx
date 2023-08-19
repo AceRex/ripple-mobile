@@ -146,8 +146,8 @@ const Home = () => {
               fontFamily: "font5",
               textTransform: "uppercase",
               color: "#292a29",
-              marginTop: 30,
-              fontSize: 13,
+              marginTop: '10%',
+              fontSize: 12,
               letterSpacing: 1,
             }}
           >
@@ -158,14 +158,14 @@ const Home = () => {
           <View
             style={{
               backgroundColor: "#f2f1f1",
-              padding: 3,
-              paddingVertical: 30,
+              paddingVertical: '7%',
+              marginRight: '6%'
             }}
           >
             <Text
               style={{
                 fontFamily: "font5",
-                fontSize: 13,
+                fontSize: 12,
                 color: "#292a29",
                 marginBottom: 10,
               }}
@@ -183,14 +183,13 @@ const Home = () => {
           <View
             style={{
               backgroundColor: "#f2f1f1",
-              padding: 7,
-              paddingVertical: 30,
+              paddingVertical: '7%',
             }}
           >
             <Text
               style={{
                 fontFamily: "font5",
-                fontSize: 13,
+                fontSize: 12,
                 color: "#292a29",
                 marginBottom: 10,
               }}
@@ -214,8 +213,8 @@ const Home = () => {
               fontFamily: "font5",
               textTransform: "uppercase",
               color: "#292a29",
-              marginTop: 30,
-              fontSize: 13,
+              marginTop: '6%',
+              fontSize: 12,
               letterSpacing: 1,
             }}
           >
@@ -240,14 +239,14 @@ const Home = () => {
               style={{
                 backgroundColor: "#f0f7eb",
                 borderRadius: 20,
-                width: 80,
+                width: '100%',
                 margin: "auto",
                 padding: 25,
               }}
             >
               <FontAwesome5
                 name={"money-bill-wave-alt"}
-                size={25}
+                size={20}
                 color="#11453b"
                 style={{ textAlign: "center" }}
               />
@@ -257,7 +256,7 @@ const Home = () => {
                 fontFamily: "font5",
                 fontSize: 11,
                 color: "#515251",
-                marginTop: 12,
+                marginTop: 11,
                 marginBottom: 10,
                 textAlign: "center",
               }}
@@ -270,14 +269,14 @@ const Home = () => {
               style={{
                 backgroundColor: "#ffedec",
                 borderRadius: 20,
-                width: 80,
+                width: '100%',
                 margin: "auto",
                 padding: 25,
               }}
             >
               <AntDesign
                 name={"adduser"}
-                size={25}
+                size={20}
                 color="#ea4e4b"
                 style={{ textAlign: "center" }}
               />
@@ -287,7 +286,7 @@ const Home = () => {
                 fontFamily: "font5",
                 fontSize: 11,
                 color: "#515251",
-                marginTop: 12,
+                marginTop: 11,
                 marginBottom: 10,
                 textAlign: "center",
               }}
@@ -300,14 +299,14 @@ const Home = () => {
               style={{
                 backgroundColor: "#f0eeff",
                 borderRadius: 20,
-                width: 80,
+                width: '100%',
                 margin: "auto",
                 padding: 25,
               }}
             >
               <FontAwesome5
                 name={"envelope-open-text"}
-                size={25}
+                size={20}
                 color="#5542cf"
                 style={{ textAlign: "center" }}
               />
@@ -317,7 +316,7 @@ const Home = () => {
                 fontFamily: "font5",
                 fontSize: 11,
                 color: "#515251",
-                marginTop: 12,
+                marginTop: 11,
                 marginBottom: 10,
                 textAlign: "center",
               }}
@@ -330,13 +329,13 @@ const Home = () => {
               style={{
                 backgroundColor: "#fff2db",
                 borderRadius: 20,
-                width: 80,
+                width: '100%',
                 padding: 25,
               }}
             >
               <MaterialCommunityIcons
                 name={"file-edit-outline"}
-                size={25}
+                size={20}
                 color="#f59e0b"
                 style={{ textAlign: "center" }}
               />
@@ -346,7 +345,7 @@ const Home = () => {
                 fontFamily: "font5",
                 fontSize: 11,
                 color: "#515251",
-                marginTop: 12,
+                marginTop: 11,
                 marginBottom: 10,
                 textAlign: "center",
               }}
@@ -359,13 +358,13 @@ const Home = () => {
               style={{
                 backgroundColor: "#e5f6fe",
                 borderRadius: 20,
-                width: 80,
+                width: '100%',
                 padding: 25,
               }}
             >
               <MaterialCommunityIcons
                 name={"hand-coin"}
-                size={25}
+                size={20}
                 color="#116487"
                 style={{ textAlign: "center" }}
               />
@@ -375,7 +374,7 @@ const Home = () => {
                 fontFamily: "font5",
                 fontSize: 11,
                 color: "#515251",
-                marginTop: 12,
+                marginTop: 11,
                 marginBottom: 10,
                 textAlign: "center",
               }}
@@ -388,13 +387,13 @@ const Home = () => {
               style={{
                 backgroundColor: "#e7fbef",
                 borderRadius: 20,
-                width: 80,
+                width: '100%',
                 padding: 25,
               }}
             >
               <FontAwesome5
                 name={"telegram-plane"}
-                size={25}
+                size={20}
                 color="#219653"
                 style={{ textAlign: "center" }}
               />
@@ -404,7 +403,7 @@ const Home = () => {
                 fontFamily: "font5",
                 fontSize: 11,
                 color: "#515251",
-                marginTop: 12,
+                marginTop: 11,
                 marginBottom: 10,
                 textAlign: "center",
               }}
@@ -417,13 +416,13 @@ const Home = () => {
               style={{
                 backgroundColor: "#EAF6FC",
                 borderRadius: 20,
-                width: 80,
+                width: '100%',
                 padding: 25,
               }}
             >
               <FontAwesome5
                 name={"phone-alt"}
-                size={25}
+                size={20}
                 color="#32A7E2"
                 style={{ textAlign: "center" }}
               />
@@ -433,7 +432,7 @@ const Home = () => {
                 fontFamily: "font5",
                 fontSize: 11,
                 color: "#515251",
-                marginTop: 12,
+                marginTop: 11,
                 marginBottom: 10,
                 textAlign: "center",
               }}
@@ -446,13 +445,13 @@ const Home = () => {
               style={{
                 backgroundColor: "#F8EDF9",
                 borderRadius: 20,
-                width: 80,
+                width: '100%',
                 padding: 25,
               }}
             >
               <Entypo
                 name={"signal"}
-                size={25}
+                size={20}
                 color="#B548C6"
                 style={{ textAlign: "center" }}
               />
@@ -462,7 +461,7 @@ const Home = () => {
                 fontFamily: "font5",
                 fontSize: 11,
                 color: "#515251",
-                marginTop: 12,
+                marginTop: 11,
                 marginBottom: 10,
                 textAlign: "center",
               }}
@@ -475,13 +474,13 @@ const Home = () => {
               style={{
                 backgroundColor: "#FFF3E6",
                 borderRadius: 20,
-                width: 80,
+                width: '100%',
                 padding: 25,
               }}
             >
               <FontAwesome5
                 name={"bolt"}
-                size={25}
+                size={20}
                 color="#FF8700"
                 style={{ textAlign: "center" }}
               />
@@ -491,7 +490,7 @@ const Home = () => {
                 fontFamily: "font5",
                 fontSize: 11,
                 color: "#515251",
-                marginTop: 12,
+                marginTop: 11,
                 marginBottom: 10,
                 textAlign: "center",
               }}

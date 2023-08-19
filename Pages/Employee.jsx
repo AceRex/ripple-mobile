@@ -144,8 +144,8 @@ const Employee = () => {
       </View>
       {press === "all-employee" ? (
         <View style={{ padding: "5%" }}>
-          <View style={{display: 'flex', flexDirection: 'row'}}>
-<TextInput />
+          <View style={{ display: "flex", flexDirection: "row" }}>
+            <TextInput />
           </View>
           <Text>Department</Text>
         </View>
